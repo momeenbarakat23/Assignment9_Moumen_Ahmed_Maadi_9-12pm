@@ -1,0 +1,51 @@
+.mybackground{
+    background-image: url("../img/thumb-1920-1372163.jpeg");
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+.LoginContener{
+    
+    position: absolute;
+     top: 200px;
+        
+}
+.orderform {
+  overflow: hidden;
+    background-color: rgba(164, 213, 255, 0);
+    width: 700px;
+    margin: 0 15%;
+    overflow-x: hidden;
+    border: solid 3px rgb(77, 0, 84);
+    box-shadow: 0 7px 25px  rgb(77, 0, 84)!important;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    height: 50vh;
+    
+}
+
+@media (max-width:1080px) {
+    .orderform {
+        margin: 15em 20em 14em 18em !important;
+        width: 500px;
+    }
+}
+@media (max-width:760px) {
+    .orderform {
+        margin: 17em 5em !important;
+        width: 500px;
+    }
+}
+
+@media (max-width:580px) {
+    .orderform {
+        margin: 15em 0 20em 5em !important;
+        width: 300px;
+    }
+}

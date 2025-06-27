@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/LoginStyle.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="mybackground">
+        <dev class="LoginContener">
+            <div class="orderform">
+                <div class="col-md-4 w-100 p-5">
+                        <div class="form-group">
+                            <label class="control-label">Email</label>
+                            <input name="Email" id="EmailLog" placeholder="Email" class="form-control w-100" />
+                        </div>
+                        <div class="form-group">
+                            <label name="Password" class="control-label">Password</label>
+                            <div class="password">
+                                <!-- <img src="img/images1.png" onclick="pass()" class="passicon" id="passicon" alt="Alternate Text" /> -->
+                                <input name="Password" placeholder="Password" id="passwordLog" class="form-control" icon="showpass" />
+                            </div>
+                        </div>
+                        <div class="remember">
+                            <input type="checkbox" name="RememberMe" class="" />
+                            <h6>RememberMe</h6>
+                        </div>
+                        <div class="form-group text-center p-2">
+                            <span class="text-danger text-center d-none" id="CheckLogin">Email Or password Is Wrong</span>
+                    </div>
+                        <div class="form-group">
+                            <input type="submit" id="Login" value="LogIn" class="btn btn-success form-control" />
+                            <hr />
+                            <a href="Register.html" class="btn btn-dark form-control">To Register</a>
+                        </div>
+                </div>
+            </div>
+            
+        </dev>
+    </section>
+    
+
+
+    <script src="Script/Login.js"></script>
+
+</body>
+</html>
